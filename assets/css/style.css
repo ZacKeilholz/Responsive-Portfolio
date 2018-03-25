@@ -149,7 +149,7 @@ footer {
 }
 
 /* Portfolio-Page Specific CSS */
-#portfolio-container {
+.portfolio-container {
     margin:auto;
     padding-left:25px;
 }
@@ -160,6 +160,9 @@ img .portfolio {
 .image-container {
     position:relative;
     display:inline-block;
+    height:200px;
+    width:270px;
+    background-color:white;
     margin:10px 10px 10px 10px;
 }
 
@@ -276,6 +279,8 @@ textarea {
     }
 
     section {
+        padding-left:0px;
+        padding-right:0px;
         position:static;
         width:100%;
         margin-top:80px;
@@ -285,7 +290,11 @@ textarea {
         border-bottom: solid 1px #cccccc;
         border-right: none; 
         border-left: none; 
+    }
 
+    #about-me-section{
+        padding-left:10px;
+        padding-right:10px;
     }
     
     h2 {
@@ -302,13 +311,15 @@ textarea {
     
     /*Container for all information and images contained in the Section*/
     .section-content {
-        padding-left:20px;
-        padding-right:20px;
+        padding-left:0px;
+        padding-right:0px;
         padding-top:10px;
         padding-bottom:10px;
     }
     
     p {
+        padding-left:10px;
+        padding-right:10px;
         padding-bottom:10px;
         line-height:30px;
     }
@@ -318,6 +329,35 @@ textarea {
         padding-right:10px;
         padding-bottom:0px;
     }
+
+    /* Portfolio-Page Specific CSS */
+ .portfolio-content {
+    max-width: 300px;
+    padding-left:10px;
+    padding-right:10px;
+    margin:auto;
+    position:static;
+}
+
+
+.image-container {
+    display:inline;
+    margin:0 auto;
+}
+
+
+/*Creates text box over images*/
+.image-overlay {
+    position:absolute;
+    width:270px;
+    left:0px;
+    bottom:20px;
+    background-color:#4aaaa5;
+    color:white;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
     
     footer {
         background-color:#666666;
@@ -333,6 +373,8 @@ textarea {
     }
     
 
+
+
 }
 
 @media screen and (max-width: 600px) {
@@ -343,7 +385,7 @@ textarea {
     float:none;
     margin-left:20px;
     margin-right:auto;
-    padding:5px 5px 5px 5px;
+    padding:0px 5px 5px 5px;
 }
 
 
