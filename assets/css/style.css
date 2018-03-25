@@ -325,7 +325,7 @@ textarea {
     }
     
     #image-about {
-        float:left;
+        float:none;
         padding-right:10px;
         padding-bottom:0px;
     }
@@ -344,6 +344,7 @@ textarea {
     display:inline;
     margin:0 auto;
 }
+
 
 
 /*Creates text box over images*/
