@@ -3,7 +3,6 @@
 * { 
     box-sizing: border-box;
 }
-
 /*This CSS is used on all pages*/
 body {
     background-image: url("../images/dust_scratches.png");
@@ -56,14 +55,11 @@ nav {
 }
 
 ul {
-
     float:right;
-
 }
 
 li {
     float:left;
-
 }
 
 li a {
@@ -196,7 +192,6 @@ input[type=submit] {
     border:none;
     cursor:pointer;
     color:white;
-
 }
 
 input[type=submit]:hover {
@@ -345,8 +340,6 @@ textarea {
     margin:0 auto;
 }
 
-
-
 /*Creates text box over images*/
 .image-overlay {
     position:absolute;
@@ -374,7 +367,6 @@ textarea {
     }
     
     /*Contact Page-Specific CSS */
-
 #form-wrapper{
     padding-left:10px;
     padding-right:10px;
@@ -408,19 +400,14 @@ textarea {
     margin-top:10px;
     height:200px;
 }
-
 }
-
 @media screen and (max-width: 600px) {
 
 #image-about {
-
     width:100%;
     float:none;
     margin-left:20px;
     margin-right:auto;
     padding:0px 5px 5px 5px;
 }
-
-
 }
